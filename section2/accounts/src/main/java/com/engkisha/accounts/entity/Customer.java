@@ -2,7 +2,8 @@ package com.engkisha.accounts.entity;
 
 import org.hibernate.annotations.GenericGenerator;
 
-import jakarta.annotation.Generated;
+import com.engkisha.accounts.dto.AccountsDTO;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
