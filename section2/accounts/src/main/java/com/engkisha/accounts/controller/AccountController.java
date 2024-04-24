@@ -6,6 +6,7 @@ import com.engkisha.accounts.dto.CustomerDTO;
 import com.engkisha.accounts.dto.ResponseDTO;
 import com.engkisha.accounts.service.IAccountsService;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Pattern;
 import lombok.AllArgsConstructor;
@@ -22,6 +23,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
+@Tag(name = "VanDung", description = " account details")
 @RestController
 @RequestMapping(path = "/api", produces = { MediaType.APPLICATION_JSON_VALUE })
 @AllArgsConstructor
